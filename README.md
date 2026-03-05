@@ -7,8 +7,8 @@
 
 ## Demo
 
-📄 [Project Report](https://github.com/mirror-creator/mofa-forum-system)  
-🐙 [Source Code](https://github.com/mirror-creator/mofa-forum-system)
+📄 [Project Report](https://github.com/mirror-creator/MOFA-forum-system/tree/main/Demo)
+🐙 [Source Code](https://github.com/mirror-creator/MOFA-forum-system/tree/main/Demo/Source%20Code)
 
 ---
 
