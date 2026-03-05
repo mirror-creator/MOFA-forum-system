@@ -1,0 +1,304 @@
+/* 重置樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 整體佈局 */
+.wrap {
+    width: 90%; /* 使用百分比以適配不同裝置 */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 頁頭 */
+.header {
+    background-color: #426342;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #426342;
+    border: 1px solid #426342;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #365032;
+    color: #fff;
+}
+
+/* 頁面內容 */
+.content {
+    margin-top: 20px;
+    background: #ddedb9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 貼文區塊 */
+.blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #426342;
+}
+
+.blog-post p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.blog-post img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+/* 留言區塊樣式更新 */
+.comment {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: opacity 0.3s ease, margin 0.3s ease;
+}
+
+/* 當刪除時添加淡出效果 */
+.comment.removed {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 0;
+    overflow: hidden;
+}
+
+/* 更新刪除按鈕的間距和樣式一致性 */
+.delete-comment-form button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-comment-form button:hover {
+    background-color: #c0392b;
+}
+
+
+/* 留言表單 */
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.comment-form button {
+    background-color: #426342;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #365032;
+}
+
+/* 分頁 */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #426342;
+    border: 1px solid #426342;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #426342;
+    color: #fff;
+}
+
+.pagination a[style="font-weight:bold;"] {
+    background-color: #365032;
+    color: #fff;
+    border: none;
+}
+
+/* 頁尾 */
+.footer {
+    margin-top: 30px;
+    background: #477d68;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+/* 功能欄樣式 */
+.nav-container {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ddedb9;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-container a {
+    color: #426342; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px; 
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-container a:hover {
+    background-color: #426342;
+    color: #fff; 
+    border-color: #426342; 
+}
+
+/* 搜尋欄容器樣式 */
+.search-container {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ddedb9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container form {
+    display: inline-flex;
+    align-items: center;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    background-color: #426342;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #365032;
+}
+
+/* 清除搜尋按鈕 */
+.clear-search {
+    display: inline-block;
+    margin-left: 10px; /* 與搜尋按鈕保持適當間距 */
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: #426342; /* 與整體風格一致的顏色 */
+    background-color: #fff;
+    border: 1px solid #426342; /* 與搜尋按鈕保持一致的邊框 */
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.clear-search:hover {
+    background-color: #426342;
+    color: #fff;
+
+
+/* 禁用按鈕樣式 */
+.comment-form button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+/* 分頁當前頁樣式 */
+.pagination .current-page {
+    font-weight: bold;
+    background-color: #365032;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* 新增留言的動畫效果 */
+.comment.new {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+}
+
+
+
