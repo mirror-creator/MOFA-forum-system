@@ -7,8 +7,8 @@
 
 ## Demo
 
-📄 Project Report  
-🐙 Source Code
+📄 [Project Report](https://github.com/mirror-creator/mofa-forum-system)  
+🐙 [Source Code](https://github.com/mirror-creator/mofa-forum-system)
 
 ---
 
@@ -21,7 +21,7 @@
 - 文章與使用者搜尋
 - 後台資料管理
 
-系統允許使用者建立文章、留言互動，並透過標籤系統組織文章內容，提升資訊管理與查詢效率。 :contentReference[oaicite:0]{index=0}
+系統允許使用者建立文章、留言互動，並透過標籤系統組織文章內容，提升資訊管理與查詢效率。 
 
 ---
 
@@ -52,6 +52,7 @@
 ---
 
 ## 專案結構
+```
 project-folder
 │
 ├── account
@@ -65,6 +66,7 @@ project-folder
 ├── login.php
 ├── register.php
 └── style.css
+```
 
 
 其中 `uploads/` 目錄用於儲存文章上傳的圖片檔案。
@@ -74,7 +76,7 @@ project-folder
 ## 安裝與執行
 
 1️⃣ 安裝 **XAMPP**
-2️⃣ 將專案資料夾放入：
+2️⃣ 將專案資料夾放入
 3️⃣ 在 **phpMyAdmin** 中匯入資料庫：
 4️⃣ 啟動 Apache 與 MySQL
 5️⃣ 在瀏覽器開啟：
