@@ -75,11 +75,11 @@ project-folder
 
 ## 安裝與執行
 
-1️⃣ 安裝 **XAMPP**
-2️⃣ 將專案資料夾放入
-3️⃣ 在 **phpMyAdmin** 中匯入資料庫：
-4️⃣ 啟動 Apache 與 MySQL
-5️⃣ 在瀏覽器開啟：
+-1️⃣ 安裝 **XAMPP**
+-2️⃣ 將專案資料夾放入
+-3️⃣ 在 **phpMyAdmin** 中匯入資料庫
+-4️⃣ 啟動 Apache 與 MySQL
+-5️⃣ 在瀏覽器開啟
 
 ---
 
